@@ -335,15 +335,17 @@ The designed analog front-end successfully:
 
 ---
 
+
 ## Future Improvements
 
-- Add adaptive filtering
-- Implement digital signal processing
-- Hardware implementation using instrumentation amplifier ICs
-- Real-time ECG acquisition
-- PCB implementation
-- Integration with microcontrollers for biomedical monitoring
-
+- Build a hardware prototype by interfacing the analog front-end with a microcontroller for real-time ECG acquisition.
+- Implement digital filtering to further improve signal quality and reduce motion artifacts.
+- Develop firmware for continuous data acquisition and efficient power management.
+- Create a desktop or web application to visualize ECG signals in real time.
+- Add heart rate and QRS detection algorithms for basic ECG analysis.
+- Design a custom PCB to make the system more compact and reliable.
+- Explore Bluetooth or Wi-Fi connectivity for wireless transmission of ECG data.
+- Evaluate the system using real ECG datasets and optimize its performance for practical applications.
 ---
 
 ## Tools Used
@@ -355,36 +357,3 @@ The designed analog front-end successfully:
 - FFT Analysis
 - Noise Analysis
 
----
-
-## Project Structure
-
-```
-ECG-Signal-Processing/
-│
-├── README.md
-├── Circuit/
-│   ├── ECG_Circuit.asc
-│   └── Components.lib
-│
-├── Simulations/
-│   ├── Transient/
-│   ├── FFT/
-│   ├── Noise/
-│   └── Frequency_Response/
-│
-├── Images/
-│   ├── Circuit.png
-│   ├── FFT_Before.png
-│   ├── FFT_After.png
-│   └── Output_Waveforms.png
-│
-└── Documentation/
-    └── Project_Report.pdf
-```
-
----
-
-## License
-
-This project is intended for educational and research purposes in analog circuit design and biomedical signal processing.
